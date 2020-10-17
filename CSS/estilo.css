@@ -179,6 +179,25 @@ body {
   border-color: #d4a055;
   color: #030307; }
 
+.card {
+  height: 90px; }
+
+.card-body {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  background-color: #030307;
+  border-radius: 10px;
+  color: #fdfdfd; }
+
+.fuentes__link {
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.fuentes__link:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #d4a055; }
+
 /* Tiradas */
 .tirada__title {
   height: 100px;
@@ -239,14 +258,14 @@ body {
 
 .contact__btn-custom {
   /*    width: 600px; */
-  background-color: #240c19;
-  border-color: #240c19;
+  background-color: #d4a055;
+  border-color: #d4a055;
   font-family: "Piazzolla", serif; }
 
 .contact__btn-custom:hover {
-  background-color: #d4a055;
-  border-color: #d4a055;
-  color: #030307; }
+  background-color: #240c19;
+  border-color: #240c19;
+  color: #fdfdfd; }
 
 .contact__input,
 .contact__text {
@@ -275,3 +294,17 @@ body {
 
 .footer__icon-logo {
   height: 30px; }
+
+@media (min-width: 300px) and (max-width: 786px) {
+  .intro__title {
+    font-size: 40px;
+    margin-top: 50px; }
+  .menores {
+    height: 150px;
+    margin-bottom: 50px; }
+  .oraculo__title {
+    font-size: 40px; }
+  .oraculo__subtitle {
+    margin-top: 30px; }
+  .card {
+    height: 150px; } }
