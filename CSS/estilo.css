@@ -1,0 +1,277 @@
+body {
+  background-color: #030307; }
+
+/* Navbar */
+.navbar__wrapper, .navbar__custom {
+  background-color: #030307; }
+
+.navbar__custom {
+  text-transform: uppercase; }
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Piazzolla", serif;
+  font-size: 20px;
+  color: #fdfdfd; }
+
+.nav-link:hover {
+  color: #d4a055; }
+
+.navbar-brand {
+  font-family: "Piazzolla", serif;
+  font-size: 40px;
+  color: #fdfdfd;
+  display: flex;
+  justify-content: center; }
+
+.navbar-brand:hover {
+  color: #d4a055; }
+
+.title__resumen {
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.resumen__subtitle {
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd;
+  font-weight: bold; }
+
+.resumen__text {
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.blockquote {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.lead__custom {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+  .lead__custom .lead__custom-color {
+    font-size: 50px;
+    font-weight: bold;
+    color: #d4a055; }
+
+/* Significados */
+.intro__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #d4a055; }
+
+.arcanos__mayores-title,
+.arcanos__menores-title {
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fdfdfd; }
+
+.arcanos__mayores-subtitle,
+.arcanos__menores-subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.card {
+  background-color: #030307;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; }
+
+.card__title {
+  font-family: "Piazzolla", serif;
+  font-size: 30px;
+  color: #d4a055; }
+
+.card__text {
+  font-size: 16px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd;
+  width: 300px; }
+
+.menores__basto-title,
+.menores__copa-title,
+.menores__espada-title,
+.menores__oro-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  color: #d4a055; }
+
+.menores__basto-subtitle,
+.menores__copa-subtitle,
+.menores__espada-subtitle,
+.menores__oro-subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+/* Oraculo */
+.oraculo__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #d4a055; }
+
+.oraculo__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.button {
+  display: grid; }
+
+.button__custom {
+  background-color: #240c19;
+  border-color: #240c19;
+  color: #fdfdfd; }
+
+.button__custom:hover {
+  background-color: #d4a055;
+  border-color: #d4a055;
+  color: #030307; }
+
+.modal__title-custom {
+  font-size: 25px;
+  font-family: "Piazzolla", serif;
+  font-weight: bold;
+  color: #030307; }
+
+.modal__body-custom {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+  color: #030307; }
+
+.modal__body__title {
+  font-weight: bold; }
+
+.modal__btn-custom {
+  background-color: #030307; }
+
+.ty__btn-custom {
+  background-color: #240c19; }
+
+.modal__btn-custom:hover {
+  background-color: #d4a055;
+  border-color: #d4a055;
+  color: #030307; }
+
+.ty__btn-custom:hover {
+  background-color: #d4a055;
+  border-color: #d4a055;
+  color: #030307; }
+
+/* Tiradas */
+.tirada__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #d4a055; }
+
+.tirada__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.tiradas {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.tiradasuno,
+.tiradasdos {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  letter-spacing: 5px;
+  color: #fdfdfd; }
+
+.tiradasuno__subtitle,
+.tiradasdos__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.tiradasuno__text,
+.tiradasdos__text {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+/* Contacto */
+.header__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #d4a055; }
+
+.header__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #fdfdfd; }
+
+.contact__btn-custom {
+  /*    width: 600px; */
+  background-color: #240c19;
+  border-color: #240c19;
+  font-family: "Piazzolla", serif; }
+
+.contact__btn-custom:hover {
+  background-color: #d4a055;
+  border-color: #d4a055;
+  color: #030307; }
+
+.contact__input,
+.contact__text {
+  font-size: 16px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+  border: 1px solid #fdfdfd; }
+
+.contact__input:hover,
+.contact__text:hover {
+  border: 2px solid #d4a055; }
+
+/* Footer */
+.footer {
+  font-family: "Piazzolla", serif;
+  font-size: 20px;
+  color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #030307;
+  height: 100px; }
+
+.footer__title {
+  color: #d4a055; }
+
+.footer__icon-logo {
+  height: 30px; }

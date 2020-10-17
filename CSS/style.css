@@ -1,0 +1,318 @@
+/* Navbar */
+.navbar__wrapper {
+  background-color: #030307;
+}
+
+.navbar__custom {
+  background-color: #030307;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Piazzolla", serif;
+  font-size: 20px;
+  color: #d9d9d9;
+}
+
+.nav-link:hover {
+  color: #fcefdc;
+  text-shadow: 6px 6px 10px #fcefdc;
+}
+
+.navbar-brand {
+  font-family: "Piazzolla", serif;
+  font-size: 50px;
+  color: #bda632;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand:hover {
+  color: #030307;
+  text-shadow: 8px 8px 12px #bda632;
+}
+
+.blockquote {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  color: #3c154a;
+}
+
+.lead__custom {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  color: #3c154a;
+}
+
+.lead__custom-color {
+  font-size: 50px;
+  font-weight: bold;
+  color: #bda632;
+}
+
+/* Significados */
+
+.intro {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.intro__title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #030307;
+}
+
+.arcanos__mayores-title,
+.arcanos__menores-title {
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #3c154a;
+}
+
+.arcanos__mayores-subtitle,
+.arcanos__menores-subtitle {
+  font-size: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #030307;
+}
+
+.card {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card__title {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #030307;
+}
+
+.card__text {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #030307;
+  width: 300px;
+}
+
+.menores {
+  background-color: #d9d9d9;
+  height: 105px;
+}
+
+.menores__basto-title,
+.menores__copa-title,
+.menores__espada-title,
+.menores__oro-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+.menores__basto-subtitle,
+.menores__copa-subtitle,
+.menores__espada-subtitle,
+.menores__oro-subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+/* Oraculo */
+
+.oraculo__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #030307;
+}
+
+.oraculo__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+.grid__oraculo {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(1, 400px);
+  column-gap: 10px;
+  row-gap: 5px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+
+.button {
+  display: grid;
+}
+
+.button__custom {
+  background-color: #5f4bbc;
+  color: #d9d9d9;
+}
+
+.button__custom:hover {
+  background-color: #ffba40;
+  color: #d9d9d9;
+}
+
+.modal__title-custom {
+  font-size: 25px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  color: #030307;
+}
+
+.modal__body-custom {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+  color: #030307;
+}
+
+.modal__body__title {
+  font-weight: bold;
+}
+
+.modal__btn-custom {
+  background-color: #030307;
+}
+
+.ty__btn__custom {
+  background-color: #3c154a;
+}
+
+/* Tiradas */
+
+.tirada__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #030307;
+}
+
+.tirada__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+.ejemplos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ejemplos__uno,
+.ejemplos__dos {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  letter-spacing: 5px;
+  color: #3c154a;
+}
+
+.ejemplos__uno__subtitle,
+.ejemplos__dos__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+.ejemplos__uno__text,
+.ejemplos__dos__text {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+/* Contacto */
+
+.header__title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #030307;
+}
+
+.header__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: #030307;
+}
+
+.contact__btn-custom {
+  /*    width: 600px; */
+  background-color: #3c154a;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.contact__btn-custom:hover {
+  background-color: #bda632;
+}
+
+.contact__input,
+.contact__text {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #030307;
+  border: 1px solid #d9d9d9;
+}
+
+.contact__input:hover,
+.contact__text:hover {
+  border: 1px solid #bda632;
+}
+/* Footer */
+
+.footer {
+  font-family: "Piazzolla", serif;
+  font-size: 20px;
+  color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #030307;
+  height: 100px;
+}
+
+.footer__title {
+  color: #bda632;
+}
+.footer__icon-logo {
+  height: 30px;
+}

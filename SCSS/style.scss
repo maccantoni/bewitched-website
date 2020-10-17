@@ -1,0 +1,315 @@
+$dark-color: #030307;
+$purple-color: #240c19;
+$light-color: #fdfdfd;
+$gold-color: #d4a055;
+
+@mixin titles {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  // font-weight: bold;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: $gold-color;
+}
+
+body {
+  background-color: $dark-color;
+}
+/* Navbar */
+.navbar__wrapper {
+  background-color: $dark-color;
+}
+
+.navbar__custom {
+  @extend .navbar__wrapper;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Piazzolla", serif;
+  font-size: 20px;
+  color: $light-color;
+}
+
+.nav-link:hover {
+  color: $gold-color;
+  // text-shadow: 6px 6px 10px $gold-color;
+}
+
+.navbar-brand {
+  font-family: "Piazzolla", serif;
+  font-size: 40px;
+  color: $light-color;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand:hover {
+  color: $gold-color;
+  // text-shadow: 8px 8px 12px #bda632;
+}
+
+.title__resumen {
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.resumen__subtitle {
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+  font-weight: bold;
+}
+
+.resumen__text {
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.blockquote {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.lead__custom {
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+  .lead__custom-color {
+    font-size: 50px;
+    font-weight: bold;
+    color: $gold-color;
+  }
+}
+
+/* Significados */
+
+.intro__title {
+  @include titles;
+}
+
+.arcanos__mayores-title,
+.arcanos__menores-title {
+  font-size: 40px;
+  font-family: "Piazzolla", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: $light-color;
+}
+
+.arcanos__mayores-subtitle,
+.arcanos__menores-subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.card {
+  background-color: $dark-color;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card__title {
+  font-family: "Piazzolla", serif;
+  // font-weight: bold;
+  font-size: 30px;
+  color: $gold-color;
+}
+.card__text {
+  font-size: 16px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+  width: 300px;
+}
+
+.menores__basto-title,
+.menores__copa-title,
+.menores__espada-title,
+.menores__oro-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  color: $gold-color;
+}
+
+.menores__basto-subtitle,
+.menores__copa-subtitle,
+.menores__espada-subtitle,
+.menores__oro-subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+/* Oraculo */
+
+.oraculo__title {
+  @include titles;
+}
+
+.oraculo__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.button {
+  display: grid;
+}
+
+.button__custom {
+  background-color: $purple-color;
+  border-color: $purple-color;
+  color: $light-color;
+}
+
+.button__custom:hover {
+  background-color: $gold-color;
+  border-color: $gold-color;
+  color: $dark-color;
+}
+
+.modal__title-custom {
+  font-size: 25px;
+  font-family: "Piazzolla", serif;
+  font-weight: bold;
+  color: $dark-color;
+}
+
+.modal__body-custom {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+  color: $dark-color;
+}
+
+.modal__body__title {
+  font-weight: bold;
+}
+
+.modal__btn-custom {
+  background-color: $dark-color;
+}
+
+.ty__btn-custom {
+  background-color: $purple-color;
+}
+
+.modal__btn-custom:hover {
+  background-color: $gold-color;
+  border-color: $gold-color;
+  color: $dark-color;
+}
+
+.ty__btn-custom:hover {
+  background-color: $gold-color;
+  border-color: $gold-color;
+  color: $dark-color;
+}
+
+/* Tiradas */
+
+.tirada__title {
+  @include titles;
+}
+
+.tirada__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.tiradas {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tiradasuno,
+.tiradasdos {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Piazzolla", serif;
+  letter-spacing: 5px;
+  color: $light-color;
+}
+
+.tiradasuno__subtitle,
+.tiradasdos__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.tiradasuno__text,
+.tiradasdos__text {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+/* Contacto */
+
+.header__title {
+  @include titles;
+}
+
+.header__subtitle {
+  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color: $light-color;
+}
+
+.contact__btn-custom {
+  /*    width: 600px; */
+  background-color: $purple-color;
+  border-color: $purple-color;
+  font-family: "Piazzolla", serif;
+}
+
+.contact__btn-custom:hover {
+  background-color: $gold-color;
+  border-color: $gold-color;
+  color: $dark-color;
+}
+
+.contact__input,
+.contact__text {
+  font-size: 16px;
+  font-family: "Piazzolla", serif;
+  color: $dark-color;
+  border: 1px solid $light-color;
+}
+
+.contact__input:hover,
+.contact__text:hover {
+  border: 2px solid $gold-color;
+}
+/* Footer */
+
+.footer {
+  font-family: "Piazzolla", serif;
+  font-size: 20px;
+  color: $light-color;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: $dark-color;
+  height: 100px;
+}
+.footer__title {
+  color: $gold-color;
+}
+.footer__icon-logo {
+  height: 30px;
+}

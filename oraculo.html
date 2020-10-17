@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
+    <meta
+      name="keywords"
+      content="Tarot, cartas, lecturas, lecturas online, tarot online, marsella, oraculo, arcanos, arcanos mayores, arcanos menores, tarot evolutivo, pasado, presente, futuro, jodorowsky"
+    />
+    <meta
+      name="description"
+      content="Presiona un botón y recibe un consejo de los arcanos."
+    />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/estilo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Piazzolla&display=swap"
+      rel="stylesheet"
+    />
+    <title>Oráculo</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar__wrapper">
+        <a class="navbar-brand" href="index.html">BEWITCHED</a>
+      </div>
+      <nav
+        class="navbar navbar-expand-sm justify-content-center navbar__custom"
+      >
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="meaning.html">Significados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tiradas.html">Tiradas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="oraculo.html">Oráculo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-fluid oraculo mt-5">
+      <h1 class="text-center oraculo__title">¿Necesitas un consejo?</h1>
+      <p class="lead text-center oraculo__subtitle">
+        Elegí una carta y guiate por los arcanos
+      </p>
+    </section>
+
+    <section class="row mb-5 container-fluid">
+      <div class="col text-center">
+        <img
+          class="img d-block mx-auto"
+          width="200"
+          src="./Imagenes/tarotcolor.svg"
+        />
+        <button
+          type="button"
+          class="btn btn-light button__custom"
+          data-toggle="modal"
+          data-target="#card-uno"
+          data-whatever="@mdo"
+        >
+          Suerte
+        </button>
+
+        <div
+          class="modal fade"
+          id="card-uno"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title modal__title-custom"
+                  id="exampleModalLabel"
+                >
+                  Tu carta es
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body modal__body-custom">
+                <h4 class="modal__body__title">El Enamorado</h4>
+                <p>
+                  Confusión. Momento de volver a eje y concentrarse en lo que a
+                  uno realmente le gusta. Algo nuevo puede volver a "enamorar"
+                  pero hay que juntar cabeza, deseo y corazón en un mismo lugar.
+                </p>
+                <img
+                  src="./Imagenes/Mayoresmini/6.png"
+                  class="img-fluid"
+                  alt="El Enamorado"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-dark modal__btn-custom"
+                  data-dismiss="modal"
+                >
+                  Lo sabia
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark ty__btn-custom"
+                  data-dismiss="modal"
+                >
+                  ¡Gracias!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col text-center">
+        <img
+          class="img d-block mx-auto"
+          width="200"
+          src="./Imagenes/tarotcolor.svg"
+        />
+        <button
+          type="button"
+          class="btn btn-light button__custom"
+          data-toggle="modal"
+          data-target="#card-dos"
+          data-whatever="@mdo"
+        >
+          Suerte
+        </button>
+
+        <div
+          class="modal fade"
+          id="card-dos"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title modal__title-custom"
+                  id="exampleModalLabel"
+                >
+                  Tu carta es
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body modal__body-custom">
+                <h4 class="modal__body__title">El Colgado</h4>
+                <p>
+                  Momento de detenimiento y aceptación. Es hora de intentar ver
+                  las cosas desde otro punto de vista.
+                </p>
+                <img
+                  src="./Imagenes/Mayoresmini/12.png"
+                  class="img-fluid"
+                  alt="El Colgado"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-dark modal__btn-custom"
+                  data-dismiss="modal"
+                >
+                  Lo sabia
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark ty__btn-custom"
+                  data-dismiss="modal"
+                >
+                  ¡Gracias!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col text-center">
+        <img
+          class="img d-block mx-auto"
+          width="200"
+          src="./Imagenes/tarotcolor.svg"
+        />
+        <button
+          type="button"
+          class="btn btn-light button__custom"
+          data-toggle="modal"
+          data-target="#card-tres"
+          data-whatever="@mdo"
+        >
+          Suerte
+        </button>
+
+        <div
+          class="modal fade"
+          id="card-tres"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title modal__title-custom"
+                  id="exampleModalLabel"
+                >
+                  Tu carta es
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body modal__body-custom">
+                <h4 class="modal__body__title">El Juicio</h4>
+                <p>
+                  El Juicio es un llamado. Señales, sincronicidades,
+                  coincidencias, intuición... ¿Estas listo para escucharlo?
+                </p>
+                <img
+                  src="./Imagenes/Mayoresmini/20.png"
+                  class="img-fluid"
+                  alt="El Juicio"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-dark modal__btn-custom"
+                  data-dismiss="modal"
+                >
+                  Lo sabia
+                </button>
+                <button type="button" class="btn btn-dark ty__btn-custom">
+                  ¡Gracias!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid footer">
+      <div class="footer__title">Bewitched</div>
+      <div>&copy; 2020 Maca Cantoni</div>
+      <div class="footer_icon">
+        <a href="https://www.instagram.com/maccantoni/" target="_blank"
+          ><img
+            src="./Imagenes/Media/igblackback.png"
+            class="footer__icon-logo"
+        /></a>
+      </div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
