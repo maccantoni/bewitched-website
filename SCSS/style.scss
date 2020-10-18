@@ -113,7 +113,7 @@ body {
 
 .card {
   background-color: $dark-color;
-  height: 550px;
+  // height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,10 +216,6 @@ body {
   background-color: $gold-color;
   border-color: $gold-color;
   color: $dark-color;
-}
-
-.card {
-  height: 90px;
 }
 
 .card-body {
@@ -339,13 +335,8 @@ body {
 
 @media (min-width: 300px) and (max-width: 786px) {
   .intro__title {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 50px;
-  }
-
-  .menores {
-    height: 150px;
-    margin-bottom: 50px;
   }
 
   .oraculo__title {
@@ -354,9 +345,5 @@ body {
 
   .oraculo__subtitle {
     margin-top: 30px;
-  }
-
-  .card {
-    height: 150px;
   }
 }
